@@ -14,7 +14,7 @@ export default function LalosLoader() {
                 zIndex: (theme) => theme.zIndex.modal + 1,
             }}
         >
-            <div className="pizzeria-loader">
+            <div className="cripta-loader">
                 <CircularProgress color="inherit" />
                 <Typography>{message}</Typography>
             </div>

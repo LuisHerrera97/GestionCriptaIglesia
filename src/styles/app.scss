@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 
-.pizzeria-loader {
+.cripta-loader {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@ body {
 
 }
 
-.pizzeria-dashboard {
+.cripta-dashboard {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -91,7 +91,7 @@ body {
     }
 }
 
-.pizzeria-elementos {
+.cripta-elementos {
     flex-grow: 1;
     display: flex;
     flex-direction: row;
@@ -123,14 +123,14 @@ body {
     }
 }
 
-.pizzeria-flx-center {
+.cripta-flx-center {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
 
-.pizzeria-modal {
+.cripta-modal {
     .title-container {
         display: flex;
         align-items: center;
@@ -155,7 +155,7 @@ body {
     }
 }
 
-.pizzeria-icontext {
+.cripta-icontext {
     display: flex;
     align-items: center;
 
@@ -164,7 +164,7 @@ body {
     }
 }
 
-.pizzeria-table {
+.cripta-table {
     thead {
         th {
             background-color: white;
@@ -206,9 +206,9 @@ body {
     }
 }
 
-.pizzeria-calendar {
+.cripta-calendar {
 
-    .pizzeria-content {
+    .cripta-content {
         width: 100% !important;
         padding: 2px !important;
         border-radius: 5px !important;
@@ -268,12 +268,12 @@ body {
     }
 }
 
-.pizzeria-makeStyles-root-1 {
+.cripta-makeStyles-root-1 {
     width: max-content;
     display: flex;
     flex-direction: row;
 
-    .pizzeria-makeStyles-colorpickerButton-2 {
+    .cripta-makeStyles-colorpickerButton-2 {
         margin: 6px;
         background-image: none;
         background-color: rgb(255, 255, 255) !important;

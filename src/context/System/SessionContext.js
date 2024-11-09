@@ -8,7 +8,7 @@ import { useConfiguration } from "./ConfigurationContext";
 import { useLayout } from "./LayoutContext";
 import { tiempoCierreSession } from "../../settings/utils";
 
-export const tokenName = "pizzeria-dashboard-token";
+export const tokenName = "cripta-dashboard-token";
 
 const getLoginForm = () => ({
   username: { value: "", error: false },
@@ -16,9 +16,9 @@ const getLoginForm = () => ({
 });
 
 const getConfiguracionDefault = () => ({
-  tituloNavegador: "Pizzeria Lalos",
-  tituloDependencia: "Sistema de ventas",
-  metaDescription: "Sistema de ventas",
+  tituloNavegador: "Gestion Criptas",
+  tituloDependencia: "Sistema de gestion de criptas",
+  metaDescription: "Sistema de gestion de criptas",
   colorPrimario: "#FD8204",
   colorSecundario: "#16216A",
   contrastePrimario: "#FFFFFF",
@@ -94,7 +94,7 @@ export const SessionProvider = (props) => {
     localStorage.removeItem(tokenName);
 
     setPreviousRoute(location.pathname);
-    navigate(routeInvitatados);
+    navigate(routeLogin);
     setUsuario(null);
   };
 

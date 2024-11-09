@@ -48,9 +48,9 @@ export const ConfigurationProvider = (props) => {
     titlePage,
     metaDescription
   ) => {
-    document.getElementById("pizzeria-title-page").innerHTML = titlePage;
-    document.getElementById("pizzeria-meta").setAttribute("content", metaDescription);
-    document.getElementById("pizzeria-urlfont").setAttribute("href", urlFont);
+    document.getElementById("cripta-title-page").innerHTML = titlePage;
+    document.getElementById("cripta-meta").setAttribute("content", metaDescription);
+    document.getElementById("cripta-urlfont").setAttribute("href", urlFont);
     setTitlePage(titlePage);
 
     setTheme(

@@ -25,7 +25,7 @@ export default function LalosLayout({ children, titlePage, buttonActions, button
 
     return (
         <Fragment>
-            <div className="pizzeria-elementos">
+            <div className="cripta-elementos">
                 <div className="work">
                     <LalosBody>
                         <AppBar

@@ -14,7 +14,7 @@ const LalosFooter = () => {
             }}
         >
             <Typography variant="caption" color="white">
-                &copy; {new Date().getFullYear()} | Pizzeria Lalos
+                &copy; {new Date().getFullYear()} | Gestion Criptas
             </Typography>
         </div>
     );

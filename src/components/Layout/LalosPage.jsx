@@ -19,7 +19,7 @@ export default function LalosPage() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="pizzeria-dashboard">
+      <div className="cripta-dashboard">
         {usuarioEnSesion && <LalosAppBar />}
         <div className="content">
           <Routes>

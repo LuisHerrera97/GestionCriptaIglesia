@@ -41,7 +41,7 @@ export default function LalosModal({
     return (
         <Dialog
             id={id}
-            className="pizzeria-modal"
+            className="cripta-modal"
             open={open}
             onClose={handleClose}
             maxWidth={!maxWidth ? "sm" : maxWidth}

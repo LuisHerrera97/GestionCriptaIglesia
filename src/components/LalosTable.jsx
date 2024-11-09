@@ -209,7 +209,7 @@ export default function LalosTable(props) {
         <Fragment>
             <ThemeProvider theme={theme}>
                 <TableContainer
-                    className="pizzeria-table"
+                    className="cripta-table"
                     sx={{ maxHeight: !disableStickyHeader ? "calc(100vh - 200px)" : "initial" }}
                     component={Paper}
                 >

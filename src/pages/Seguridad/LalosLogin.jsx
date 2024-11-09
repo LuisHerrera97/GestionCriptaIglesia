@@ -71,7 +71,7 @@ export default function LalosLogin() {
                     </Button>
                   </Grid2>
                   <Grid2 size={{ xs: 12}} className="center">
-                    <Typography variant="caption">&copy; {new Date().getFullYear()} - Pizzeria Lalos</Typography>
+                    <Typography variant="caption">&copy; {new Date().getFullYear()} - Gestion Criptas</Typography>
                   </Grid2>
                 </Grid2>
               </form>
