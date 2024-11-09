@@ -1,0 +1,316 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.pizzeria-loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+.myBorderColorGreen fieldset.MuiOutlinedInput-notchedOutline {
+    border-color: green !important;
+    border-width: 3px;
+
+}
+
+.myBorderColorRed fieldset.MuiOutlinedInput-notchedOutline {
+    border-color: red !important;
+    border-width: 3px;
+
+}
+
+.pizzeria-dashboard {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    .content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+
+        .menu-area {
+            width: 300px;
+            overflow-y: auto;
+            contain: size;
+            box-shadow: 0px 2px 14px -1px rgba(0, 0, 0, 0.08), 0px 4px 5px 0px rgba(0, 0, 0, 0.08),
+                0px 1px 10px 0px rgba(0, 0, 0, 0.08);
+            z-index: 1000;
+        }
+
+        .work-area {
+            flex-grow: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-container {
+            flex-grow: 1;
+            height: 100%;
+
+            .op {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                height: 100%;
+
+                .login-content {
+                    max-width: 450px;
+
+                    .lbl {
+                        display: flex;
+                        align-items: center;
+                        color: #868686;
+                    }
+
+                    .in {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pizzeria-elementos {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    contain: size;
+
+    .work {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+
+        .elements {
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+    }
+
+    .detail {
+        min-width: 300px;
+        max-width: 300px;
+        overflow-y: auto;
+        box-shadow: 0px 2px 14px -1px rgba(0, 0, 0, 0.08), 0px 4px 5px 0px rgba(0, 0, 0, 0.08),
+            0px 1px 10px 0px rgba(0, 0, 0, 0.08);
+        z-index: 1000;
+    }
+
+    .main {
+        border-right: 1px rgba(0, 0, 0, 0.1) solid;
+    }
+}
+
+.pizzeria-flx-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.pizzeria-modal {
+    .title-container {
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 20px;
+        height: 50px;
+
+        .text-content {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .btn-close {
+            margin-right: 10px;
+            background-color: transparent;
+            color: white;
+        }
+    }
+
+    .content {
+        padding: 10px 20px 10px;
+    }
+}
+
+.pizzeria-icontext {
+    display: flex;
+    align-items: center;
+
+    :first-child {
+        margin-right: 5px;
+    }
+}
+
+.pizzeria-table {
+    thead {
+        th {
+            background-color: white;
+            z-index: 1;
+
+            button {
+                white-space: nowrap;
+
+                &.sort {
+                    font-weight: 700 !important;
+                }
+
+                &.no-sort {
+                    font-weight: 500 !important;
+                }
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            &:hover {
+                background-color: #f9f9f9 !important;
+            }
+
+            &.row {
+                background-color: rgba($color: #ddd, $alpha: 0.3) !important;
+                cursor: pointer;
+            }
+
+            &.no-row {
+                cursor: pointer;
+            }
+
+            td {
+                color: #868686;
+            }
+        }
+    }
+}
+
+.pizzeria-calendar {
+
+    .pizzeria-content {
+        width: 100% !important;
+        padding: 2px !important;
+        border-radius: 5px !important;
+    }
+
+    .fc-event-main-frame {
+        display: inline-flex !important;
+        width: 100% !important;
+        padding: 2px !important;
+    }
+
+    td.fc-day {
+
+        //background: #FFF !important;
+    }
+
+    td.fc-today {
+        //background: #FFF !important;
+        position: relative;
+    }
+
+    .fc-first th {
+        //background: #9675ce !important;
+        //color: #FFF;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+
+    }
+
+    .fc-event-inner {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        padding: 5px 0px !important;
+    }
+
+    .fc {
+        direction: ltr;
+        text-align: left;
+    }
+
+    .fc table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    html .fc,
+    .fc table {
+        font-size: 1em;
+        font-family: "Helvetica Neue", Helvetica;
+
+    }
+
+    .fc td,
+    .fc th {
+        padding: 0;
+        vertical-align: top;
+    }
+}
+
+.pizzeria-makeStyles-root-1 {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+
+    .pizzeria-makeStyles-colorpickerButton-2 {
+        margin: 6px;
+        background-image: none;
+        background-color: rgb(255, 255, 255) !important;
+        border-color: rgb(118, 118, 118) !important;
+        border-width: 0px;
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+
+        div {
+            width: 24px;
+            min-width: 24px;
+            height: 24px;
+            border: 0px solid rgb(118, 118, 118);
+            content: " ";
+            padding: 0;
+            border-radius: 4px;
+        }
+
+        span {
+            overflow: hidden;
+            pointer-events: none;
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: inherit;
+        }
+    }
+}
+.img-evidencia {
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+        transition: 0.3s;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    }
+}
