@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "staging": "gestioncriptas",
+    "default": "gestioncriptas"
+  },
+  "targets": {},
+  "etags": {}
+}
