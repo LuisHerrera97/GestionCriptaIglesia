@@ -1,8 +1,8 @@
 import { Button, InputLabel, Paper, TextField, Typography,Grid2} from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import BackImage from "../../img/fontolpizza.jpg";
+import BackImage from "../../img/LogoCripta.jpg";
 import KeyIcon from "@mui/icons-material/Key";
-import LogoMain from "../../img/logoLalos3.jpeg";
+import LogoMain from "../../img/catedral.jpg";
 import PersonIcon from "@mui/icons-material/Person";
 import { useConfiguration } from "../../context/System/ConfigurationContext";
 import { useSession } from "../../context/System/SessionContext";
